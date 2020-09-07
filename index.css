@@ -1,0 +1,192 @@
+*{
+    margin:0;
+}
+
+body{
+    color:white;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+
+body{
+    background-color:black;
+}
+
+.hello span{
+    margin: 10px;
+}
+
+#slogan{
+    text-align:center;
+    margin-top: 20px;
+}
+
+.hello h1{
+    position: relative;
+    margin: 0 50%;
+    left: -125px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.hello{
+    position: relative;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    margin: 10px 50%;
+    left: -150px;
+}
+
+
+#icon img{
+    position: relative;
+    height: 125px;
+    left: 90%;
+    bottom: 125px;
+}
+
+#top{
+    position: fixed;
+    height: 150px;
+    background: black ;
+    opacity: 0.7;
+    width: 100%;
+    border-bottom: 5px solid grey;
+}
+
+main{
+    padding: 200px;
+}
+
+.margin{
+    margin: 50px;
+}
+
+#firstPicture{
+    display:inline-block;
+    height: 600px;
+    width: 100%;
+
+}
+
+#firstPicture span{
+    position: relative;
+    bottom:280px;
+    left: 12%;
+    font-size: 40px;
+}
+
+#secondPicture {
+    margin-top: 300px;
+    text-align: right;
+}
+
+#secondPicture img{
+    width: 750px;
+}
+
+#secondPicture span{
+    position:relative;
+    bottom: 250px;
+    right: 75px;
+    font-size:40px;
+
+}
+
+.game{
+    margin-top:200px;
+    border: 3px solid white;
+    border-radius: 50px;
+    height:500px;
+    overflow: hidden;
+}
+
+#gamePic img{
+    width: 100%;
+}
+
+#gamePic{
+    position: relative;
+    top:30%;
+    left:40%;
+    width: 20%;
+    text-align: center;
+}
+
+.arrowGame{
+    margin-top:25px;
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow{
+    background:green;
+    width: 100px;
+    height:100px;
+    margin: 0 10px;
+}
+
+.controlBox{
+    margin-top:25px;
+    height:70px;
+}
+
+.controlBox h1{
+    display: inline;
+}
+
+.controlBox button{
+    position: relative;
+    top:5px;
+    left: 65%;
+    width: 6%;
+    height:50px;
+}
+
+#foot{
+    height: 100px;
+    text-align: center;
+}
+
+#foot a{
+    width: 200px;
+    color:white;
+}
+
+/* dropdown here */
+
+#linkage{
+    display: flex;
+}
+
+#linkage .nav span{
+    border-right: 3px solid white;
+    display: inline-block;
+    width: 175px;
+    height:30px;
+    text-align: center;
+}
+
+#linkage .nav span:hover{
+    background-color: rgb(44, 44, 44);
+}
+
+.dropdown-menu{
+    display: none;
+    position:absolute;
+    width:175px;
+}
+
+.dropdown-menu div{
+    height:30px;
+    text-align:center;
+    border: 1px solid white;
+}
+
+.dropdown-menu div:hover{
+    background-color: rgb(44, 44, 44);
+}
