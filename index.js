@@ -58,7 +58,8 @@ const arrowGame={
         this.currentPosition=0;
         this.arrKey=[];
         this.generateKey();
-        document.getElementById("testing").style.display="none";
+        document.getElementById("testing").style.display="none"
+        document.getElementById("testing").style.position="absolute";
     },
 }
 
